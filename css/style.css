@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+html {
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+body{
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", "微软雅黑", "Tahoma", "Verdana";
+	width: 640px;
+	background-color: #eae2dd;
+	position: relative;
+}
+
+.nav{
+	height:206px;
+	background:url(../img/B-01.png) no-repeat;
+}
+.main{
+	height:700px;
+}
+.footer{
+	height:229px;
+	background:url(../img/C-01.png) no-repeat;
+}
+
+.red{
+	position: absolute;
+	top: 160px;
+	left: 131px;
+	width: 378px;
+	height: 455px;
+}
+.red img{
+	width: 100%;
+	height: auto;
+}
+.red.shake{
+	animation:shake .2s infinite linear;
+	-webkit-animation:shake .2s infinite linear;
+}
+@-webkit-keyframes shake {
+	0% {
+		-webkit-transform: rotate(2deg) translate3d(0,0,0)
+	}
+
+	50% {
+		-webkit-transform: rotate(-2deg) translate3d(0,0,0)
+	}
+
+	100% {
+		-webkit-transform: rotate(2deg) translate3d(0,0,0)
+	}
+}
+
+@-moz-keyframes shake {
+	0% {
+		transform: rotate(2deg) translate3d(0,0,0)
+	}
+
+	50% {
+		transform: rotate(-2deg) translate3d(0,0,0)
+	}
+
+	100% {
+		transform: rotate(2deg) translate3d(0,0,0)
+	}
+}
+
+@-ms-keyframes shake {
+	0% {
+		transform: rotate(2deg) translate3d(0,0,0)
+	}
+
+	50% {
+		transform: rotate(-2deg) translate3d(0,0,0)
+	}
+
+	100% {
+		transform: rotate(2deg) translate3d(0,0,0)
+	}
+}
+
+
+
+
+
